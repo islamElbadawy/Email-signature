@@ -1,0 +1,152 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Myriad Pro';
+    font-size: 20px;
+    position: relative;
+    overflow-y: scroll;
+}
+
+section{
+    padding: 45px 30px;
+}
+
+p{
+    font-size: 0.9em;
+    color: #adadad;
+    width:100%;
+    margin: 0 auto 0px;
+    
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*-- Header --*/
+
+header{
+   width: 100%;
+   padding: 50px;
+    overflow: hidden;
+}
+
+header img{
+    float: left;
+    display: block;
+    margin-right: 50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+header div.info{
+    float: left;
+    margin-left: 20px;
+}
+
+header div.info .sign{
+    margin-bottom: 30px;
+}
+
+header div.info .sign h2{
+    margin-bottom: 0px;
+}
+
+header div.info .sign span{
+    margin-top:0;
+    color: #949494;
+}
+
+header div.info .contacts li{
+    margin-bottom: 10px;
+}
+
+header div.info .contacts li span{
+    margin-right: 50px;
+    color: #b3cc18;
+}
+
+header div.info .contacts li a{
+    color: #005063;
+    
+}
+
+header div.info .social-media{
+    margin-top: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+header div.info .social-media li{
+    display: inline-block;
+    margin: 0 20px 0 0 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    line-height: 45px;
+     background: #005063;
+}
+
+header div.info .social-media li a{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    color: #ccc;
+}
+
+header div.info .social-media li a i{
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*-- section brand --*/
+section.brand{
+    clear: both;
+    background: #005063;
+}
+
+section.brand img{
+    width: 300px;
+}
+
+
+/*-- section brand --*/
+section.details{
+   padding-left: 20px;
+    padding-top: 30px;
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    body{font-size: 1em;}
+    
+    header{text-align: center;}
+    header img{margin: 0 auto;float: none;}
+    header div.info{display: block;float: none;margin: 0 auto}
+    header div.info ul.contacts{text-align: left;width: 50%; margin: 0 auto}
+    
+    
+
+
+
